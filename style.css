@@ -1,0 +1,69 @@
+a:link{
+    color: rgb(0, 136, 255);
+}
+a:active{
+    color: rgb(255, 0, 0);
+}
+a:hover{
+    background-color: rgb(90, 89, 89);
+    color: floralwhite;
+    padding: 5px;
+}
+a:visited{
+    color: rgb(0, 255, 0);
+}
+
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+input:disabled {
+    background: tomato;
+}
+p:empty{
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+}
+input[type='text']:enabled{
+    background-color: violet;
+}
+/* li:last-child{
+    color: red;
+} */
+/* p:last-child{
+    color: rgb(0, 255, 0);
+}
+p:first-of-type{
+    color: violet;
+} */
+input#text:focus{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 255, 0);
+    outline: none;
+}
+input[type='number']{
+    background-color: rgb(253, 148, 148);
+}
+input[type='number']:in-range{
+    background-color: chartreuse;
+}
+p:not(.test) {
+    color: rgb(0, 0, 0);
+}
+/* li:nth-child(2){
+    background-color: rgba(0, 0, 255, 0.21);
+} */
+/* li:nth-last-child(2) {
+    background-color: rgba(255, 0, 255, 0.2);
+} */
+/* li:nth-child(n) {
+    background-color: rgba(255, 0, 255, 0.2);
+} */
+/* li:nth-last-child(2n+1) {
+    background-color: rgba(255, 0, 255, 0.2);
+} */
+p:nth-of-type(3) {
+    background-color: aquamarine;
+}
